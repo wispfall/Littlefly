@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Littlefly</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #0d1117; /* 极客黑 */
+            color: #c9d1d9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        /* 尺寸改成了 2rem */
+        h1 {
+            font-size: 2rem; 
+            color: #58a6ff; /* 亮蓝色 */
+            letter-spacing: 2px;
+            text-shadow: 0 0 15px rgba(88, 166, 255, 0.4);
+            margin-bottom: 20px;
+            animation: fadeIn 1.5s ease-out;
+        }
+        /* 神秘代码 */
+        p.secret-text {
+            font-size: 1.2rem;
+            color: #8b949e;
+            letter-spacing: 5px;
+            font-weight: bold;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Littlefly</h1>
+    <p class="secret-text">sb3=wp15</p>
+</body>
+</html>
